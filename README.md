@@ -22,3 +22,7 @@
 - More security.
 - More dynamic.
 - More clean.
+
+# enable error for apache
+
+[apache](https://gist.github.com/AhmedHelalAhmed/2f263292e5876ffc654cdb5bbaafcbc4).
