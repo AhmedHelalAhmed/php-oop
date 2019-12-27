@@ -14,7 +14,7 @@ Class & Object
 - [new] = new object
 - [public, private, protected]
 - [->] = object operator
-- [ $this ] = psudo variable [ refer to object properties ]
+- [ $this ] = pseudo variable [ refer to object properties ]
 - [ :: ] = scope resolution operator [ pammayim nekudotayim ] = double colon
 
 Apple
