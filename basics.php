@@ -45,4 +45,14 @@ $this vs self
 - access non static varible
 - use ($) vecause it represent a variable
 
+ * class Abstraction
+- can not be instantiated [ can not create object from ]
+- made for other classes to inhert properites and methods from
+- can have methods and properities
+- can have abstracted method and non abstracted method
+- abstract methods [ contains no body code ]
+- rules to go on
+- force devlopers to follow your methods
+- Removing the Abstraction Class will not effect the child classes
+
  */
