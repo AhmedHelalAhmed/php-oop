@@ -82,4 +82,14 @@ $this vs self
 5)__set
 -- called when setting a value to a property not accessible or not found
 -- accept two parameters [ $prop, $value]
+6)__clone - clone
+-- typical copy of object in php works by reference.
+-- means both ( main and copied ) object will be interlinked [ the same ].
+-- the clone operation creates a so-called shallow copy of the original instance
+which means that it constructs a new object with all fields duplicated
+-- the above technique works with a class having data members that are of intrinsic type
+i.e. int boolean, string, float etc however, this technique not work with a class that has a data
+member which is an object of another class. in such senario, the clone object continues to share
+the reference  of thr data member object of the class that was cloned.
+-- magic method clone executes when object cloning is performed.
  */
