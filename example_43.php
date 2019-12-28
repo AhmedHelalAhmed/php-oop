@@ -12,7 +12,7 @@ require 'Sony.php';
 require 'Lg.php';
 
 // [namespace] [backslash] [classname]
-$iphone = new Apple\CreatePhone();
+$iphone = new Apple\Hardware\Phones\CreatePhone();
 $iphone->sayHello();
 
 $lg = new Lg\CreatePhone();
@@ -25,3 +25,6 @@ echo '</pre>';
 echo '<pre>';
 print_r($lg);
 echo '</pre>';
+
+$lgvip = new Lg\vip\products\CreatePhone();
+$lgvip->sayHello();

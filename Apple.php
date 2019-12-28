@@ -1,6 +1,6 @@
 <?php
 
-namespace Apple;
+namespace Apple\Hardware\Phones;
 
 class CreatePhone
 {
