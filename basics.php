@@ -92,4 +92,14 @@ i.e. int boolean, string, float etc however, this technique not work with a clas
 member which is an object of another class. in such senario, the clone object continues to share
 the reference  of thr data member object of the class that was cloned.
 -- magic method clone executes when object cloning is performed.
+ * static
+- static properties/methods are used to access properties/methods in a global scope
+- declaring class properties or methods as static
+make them accessible without needing an instantiation of the class
+- because static methods are callable without an intsance of the object created
+$this is not available inside the method declared as static
+- a property declared as static can not be accessed
+with an instantiated class object (a static method can)
+- one of the major benefits to using static properties is that they keep their
+stored values for the duration of the script
  */
