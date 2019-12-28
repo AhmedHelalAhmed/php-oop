@@ -25,6 +25,7 @@ class Iphone
 {
     public $name;
     public $ram;
+    private $value;
 
     public function __set($prop, $val)
     {
@@ -38,6 +39,7 @@ $phone = new Iphone();
 // this will added to this object only
 // ? how to prevent that => by suing __set method
 $phone->color = 'red';
+$phone->value = '100%';
 
 echo '<pre>';
 print_r($phone);
