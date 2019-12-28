@@ -55,4 +55,11 @@ $this vs self
 - force devlopers to follow your methods
 - Removing the Abstraction Class will not effect the child classes
 
+ * interface
+- all properites final and constants
+- all methods are public and abstract
+
+ * polymorphism
+- have methods without body code
+
  */
