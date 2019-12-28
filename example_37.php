@@ -21,6 +21,12 @@ class Iphone
     public static $name = 'ahmed';
     public static $ram;
     public static $screen;
+    public static $countObjects;
+
+    public function __construct()
+    {
+        self::$countObjects++;
+    }
 
     public static function sayHello()
     {
@@ -38,3 +44,9 @@ echo Iphone::$ram . ' <br>';
 echo Iphone::$screen . ' <br>';
 
 echo Iphone::$name . ' <br>';
+
+$obj1 = new Iphone();
+
+$obj2 = new Iphone();
+
+echo Iphone::$countObjects; // 2
