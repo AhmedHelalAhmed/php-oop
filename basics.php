@@ -102,4 +102,6 @@ $this is not available inside the method declared as static
 with an instantiated class object (a static method can)
 - one of the major benefits to using static properties is that they keep their
 stored values for the duration of the script
+ * methods chaining
+- when a class's method return the $this keyword, they can be chained together
  */
