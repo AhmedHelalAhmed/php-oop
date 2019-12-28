@@ -104,4 +104,14 @@ with an instantiated class object (a static method can)
 stored values for the duration of the script
  * methods chaining
 - when a class's method return the $this keyword, they can be chained together
+ * trait => php 5.4
+-a mechanism for code reuse in single inhertance language such as php
+- problem with extending classes, is that u can only extend one. this is a little limiting
+- with traits its possible for php classes to inherit methods & properties from multi sources.
+
+- you can not extend or implements.
+- you can not instantiate.
+- its supporting class not replacing it.
+- can have methods.
+- have priority over class.
  */
