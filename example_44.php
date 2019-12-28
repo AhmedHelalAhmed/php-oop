@@ -6,9 +6,14 @@ ini_set('error_reporting', E_ALL);
 /*
  * autoload classes
  */
-require 'classes/Testing1.class.php';
-require 'classes/Testing2.class.php';
-require 'classes/Testing3.class.php';
+
+spl_autoload_register(function ($class) {
+
+    // do not need to check [required_once] => not needed
+    // it load the class one time only
+    require 'classes/' . $class . '.class.php';
+
+});
 
 $test = new Testing2();
 echo '<pre>';
