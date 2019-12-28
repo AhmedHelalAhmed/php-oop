@@ -68,5 +68,9 @@ $this vs self
 3- private
  * magic methods
 - method with special name start with double underscore [ __ ]
-1- __construct: when you create the object
+1)__construct:
+-- called when object is created
+-- can be inherted
+2)__destruct
+-- called when object is destroyed
  */
