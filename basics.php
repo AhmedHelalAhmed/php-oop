@@ -66,5 +66,7 @@ $this vs self
 1- public => [default in php]
 2- protected
 3- private
-
+ * magic methods
+- method with special name start with double underscore [ __ ]
+1- __construct: when you create the object
  */
