@@ -1,6 +1,6 @@
 ## Course
 
-[Learn Object Oriented PHP](https://www.youtube.com/playlist?list=PLDoPjvoNmBAxXTPncg0W4lhVS32LO_xtQ).
+[Learn Object Oriented PHP from #1 to #35](https://www.youtube.com/playlist?list=PLDoPjvoNmBAxXTPncg0W4lhVS32LO_xtQ).
 
 # What is OOP?
 
