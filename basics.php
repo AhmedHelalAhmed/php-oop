@@ -73,4 +73,7 @@ $this vs self
 -- can be inherted
 2)__destruct
 -- called when object is destroyed
+3)__call
+-- called when invoking function not accessible or not found
+-- accept two parameters [ $methodName , $params ]
  */
