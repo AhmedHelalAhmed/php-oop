@@ -76,4 +76,10 @@ $this vs self
 3)__call
 -- called when invoking function not accessible or not found
 -- accept two parameters [ $methodName , $params ]
+4)__get
+-- called when getting a property not accessible or not found
+-- accept one parameter [ $prop ]
+5)__set
+-- called when setting a value to a property not accessible or not found
+-- accept two parameters [ $prop, $value]
  */
