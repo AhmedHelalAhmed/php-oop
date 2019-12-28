@@ -62,4 +62,9 @@ $this vs self
  * polymorphism
 - have methods without body code
 
+ * visibility markers [ security level ]
+1- public => [default in php]
+2- protected
+3- private
+
  */
