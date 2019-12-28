@@ -113,5 +113,5 @@ stored values for the duration of the script
 - you can not instantiate.
 - its supporting class not replacing it.
 - can have methods.
-- have priority over class.
+- have priority over class of parent but not the same class.
  */
